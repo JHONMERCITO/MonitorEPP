@@ -1,0 +1,46 @@
+# === Datasets (demasiado grandes para GitHub) ===
+Hard Hats.v1-raw-images.yolov8/
+construction-safety-monitor.v2-v2-ppe-5170img-11cls-640px.yolov8/
+ppe-detection.v1-1.yolov8/
+dataset_fusionado/
+
+# === Archivos generados por PyInstaller ===
+build/
+dist/
+*.spec
+
+# === Base de datos con datos personales ===
+monitor_epp.db
+
+# === Imagenes capturadas (infracciones, datos personales) ===
+infracciones/
+trabajadores/
+*.jpg
+*.jpeg
+*.png
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+venv/
+env/
+.env
+
+# === Archivos temporales ===
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
+
+# === Informes viejos (solo subimos el actual) ===
+IAS911-RETO6-MAMANILOZAJHONMER.pdf
+INFORME_CORREGIDO_EPP.docx
+INFORME_PROYECTO_EPP.docx
+INFORME_PROYECTO_EPP.md
+Informe_Avance_Semana2_JhonmerMamaniLoza.docx
+generar_informe.py
+generar_informe_corregido.py
